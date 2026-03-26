@@ -1,0 +1,5 @@
+nums = list(map(int, input().split()))
+nums_sum = sum(nums)
+min_sum = nums_sum - max(nums)
+max_sum = nums_sum - min(nums)
+print(min_sum,max_sum)
